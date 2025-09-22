@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>SEPILBOARD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 블로그 이름 -->
+  <header>
+    <h1 id="blogName">SEPILBOARD</h1>
+  </header>
+
+  <!-- 검색바 -->
+  <section class="search-container">
+    <input type="text" id="searchInput" placeholder="🔍︎ 제목을 입력하세요...">
+  </section>
+
+  <!-- 카테고리 버튼 영역 -->
+  <nav class="category-container" id="categoryContainer"></nav>
+
+  <!-- 글 리스트 -->
+  <main id="postList"></main>
+
+  <!-- 버튼 템플릿 -->
+  <template id="categoryTemplate">
+    <button class="category-btn"></button>
+  </template>
+
+  <!-- 글 템플릿 -->
+  <template id="postTemplate">
+    <div class="post"></div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
