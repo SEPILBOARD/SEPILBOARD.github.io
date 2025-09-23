@@ -7,7 +7,7 @@ document.getElementById("blogName").addEventListener("click", () => {
 const categories = [
     { name: "Dev", url: "dev/index.html" },
     { name: "PS", url: "ps/index.html" },
-    { name: "Games", url: "games/index.html" },
+    { name: "CS", url: "cs/index.html" },
 ];
   
 // 글 데이터 (나중에 JSON 등으로 바꿀 수도 있음)
